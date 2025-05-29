@@ -1,0 +1,3 @@
+[submodule "Gaussian-Splatting-WebViewers"]
+	path = Gaussian-Splatting-WebViewers
+	url = https://github.com/akbartus/Gaussian-Splatting-WebViewers.git
