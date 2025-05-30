@@ -3,7 +3,7 @@
 ## How to start server
 
 1. Set Python version 3.x
-2. Download the project output "combined.ply" from ([Download link](https://drive.google.com/drive/folders/1yh09-bKQhnmLCKCq4KMMCvBD3eKyCQdB?usp=drive_link))
+2. Download the project output "combined.ply" from ([Download link](https://drive.google.com/drive/folders/1yh09-bKQhnmLCKCq4KMMCvBD3eKyCQdB?usp=drive_link)) (file is in `ply/`)
 3. Clone the repository and move to cs479-proj-web/
 
 ```
