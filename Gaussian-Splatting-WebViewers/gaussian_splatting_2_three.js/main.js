@@ -1132,7 +1132,7 @@ function init() {
       );
       viewers.push(viewer);
       viewer.init();
-      viewer.loadFile(`../../splats/${plyNames[i]}`).then(() => {
+      viewer.loadFile(`/splats/${plyNames[i]}`).then(() => {
         viewer.start();
       });
     }
