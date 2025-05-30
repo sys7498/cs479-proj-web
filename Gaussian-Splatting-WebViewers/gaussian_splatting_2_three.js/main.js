@@ -1124,10 +1124,14 @@ function init() {
     let plyNames = ["ysh.ply", "stj.ply", "sys.ply", "combined.ply"];
     const viewerCount = 4;
     for (let i = 0; i < viewerCount; ++i) {
+      let cameraPosition = [0, 0, 2];
+      if (i === 3) {
+        cameraPosition = [0, 0, 0.5];
+      }
       const viewer = new Viewer(
         `gs-canvas-${i}`,
         [0, -1, 0],
-        [0, 0, 2],
+        cameraPosition,
         [0, 0, 0]
       );
       viewers.push(viewer);
