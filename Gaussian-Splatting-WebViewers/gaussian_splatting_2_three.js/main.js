@@ -1126,7 +1126,7 @@ function init() {
     for (let i = 0; i < viewerCount; ++i) {
       let cameraPosition = [0, 0, 2];
       if (i === 3) {
-        cameraPosition = [0, 0, 0.5];
+        cameraPosition = [0, 0, 1];
       }
       const viewer = new Viewer(
         `gs-canvas-${i}`,
