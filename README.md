@@ -9,7 +9,7 @@
 3. Clone the repository and move to cs479-proj-web/
 
 ```
-   git clone https://github.com/sys7498/cs479-proj-web.git
+   git clone --recurse-submodules https://github.com/sys7498/cs479-proj-web.git
    cd cs479-proj-web
 ```
 
