@@ -2,7 +2,7 @@
 
 ## How to start server
 
-1. Set Python version 3.x
+1. Set Python version 3.X
 2. Download the project output "combined.ply" from ([Download link](https://drive.google.com/drive/folders/1yh09-bKQhnmLCKCq4KMMCvBD3eKyCQdB?usp=drive_link)) (file is in `ply/`)
 3. Clone the repository and move to cs479-proj-web/
 
@@ -15,8 +15,7 @@
 5. Start server
 
 ```
-chmod +x ./startserver.sh
-./startserver.sh
+python -m http.server 8000 --bind 127.0.0.1
 ```
 
 6. Open "[http://127.0.0.1:8000/Gaussian-Splatting-WebViewers gaussian_splatting_2_three.js/](http://127.0.0.1:8000/Gaussian-Splatting-WebViewers/gaussian_splatting_2_three.js/)"
