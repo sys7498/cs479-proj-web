@@ -757,6 +757,7 @@ class Viewer {
       this.controls.enableDamping = true;
       this.controls.dampingFactor = 0.15;
       this.controls.autoRotate = true;
+      this.controls.autoRotateSpeed = 6;
       this.controls.target.copy(this.initialCameraLookAt);
     }
 
@@ -1122,10 +1123,10 @@ function init() {
     });
     let viewers = [];
     let plyNames = ["ysh.ply", "stj.ply", "sys.ply", "combined.ply"];
-    const viewerCount = 4;
+    const viewerCount = 6;
     for (let i = 0; i < viewerCount; ++i) {
       let cameraPosition = [0, 0, 2];
-      if (i === 3) {
+      if (i >= 3) {
         cameraPosition = [0, 0, 1];
       }
       const viewer = new Viewer(
