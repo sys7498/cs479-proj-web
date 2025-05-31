@@ -1,5 +1,7 @@
 # CS479 Final Project "ASURA" Rendering page
 
+![Representative Image](figures/representative_image.png)
+
 ## How to start server
 
 1. Set Python version 3.X
